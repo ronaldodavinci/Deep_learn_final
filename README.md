@@ -156,3 +156,14 @@ Concatenate → Dense(256, ReLU) → Dropout → Dense(128, ReLU) → Dense(1)
 > ที่สามารถผสานข้อมูลข้อความและเชิงตารางในการทำนายความนิยมของอนิเมะได้อย่างมีเหตุผล  
 > โดยโมเดลพื้นฐาน Mixed-modal MLP ให้ผลลัพธ์ที่ดีที่สุดในชุดข้อมูลปัจจุบัน  
 > และมีแนวทางพัฒนาเพิ่มเติมด้วยการเพิ่มข้อมูลและปรับจูนโมเดลภาษาในอนาคต
+
+
+## 📖 References
+1. Vaswani, A. et al. (2017). *Attention is All You Need.* NeurIPS.  
+2. Sanh, V., Debut, L., Chaumond, J., & Wolf, T. (2019). *DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter.* arXiv:1910.01108.  
+3. Reimers, N., & Gurevych, I. (2019). *Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks.* EMNLP.  
+4. **Dataset Source:** dbdmobile (2023). *MyAnimeList Dataset.* Kaggle.  
+   Retrieved from [https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)  
+5. PyTorch Documentation. (2025). *Optimizers and Training Utilities.* Retrieved from [https://pytorch.org/docs/stable/index.html](https://pytorch.org/docs/stable/index.html)  
+6. Hugging Face Transformers. (2025). *DistilBERT and Sentence Transformers.* Retrieved from [https://huggingface.co/docs/transformers](https://huggingface.co/docs/transformers)  
+7. KaggleHub. (2025). *KaggleHub Python Client Library.* Retrieved from [https://github.com/Kaggle/kagglehub](https://github.com/Kaggle/kagglehub)
